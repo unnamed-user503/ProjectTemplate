@@ -1,5 +1,5 @@
-project "CoreLibrary"
-    kind          "StaticLib" -- ConsoleApp WindowedApp SharedLib StaticLib
+project "New Project"
+    kind          "ConsoleApp" -- ConsoleApp WindowedApp SharedLib StaticLib
     language      "C++"
     cppdialect    "C++17"
     staticruntime "off"
@@ -15,9 +15,9 @@ project "CoreLibrary"
     {
         -- VcpkgTriplet = "x64-windows-static",
         -- VcpkgEnabled = "true",
-        PublicIncludeDirectories = "Source",
-        PublicModuleDirectories  = "Source",
-        AllProjectBMIsArePublic  = "true",
+        -- PublicIncludeDirectories = "Source",
+        -- PublicModuleDirectories  = "Source",
+        -- AllProjectBMIsArePublic  = "true",
     }
 
     vsadditionalprops
@@ -39,7 +39,7 @@ project "CoreLibrary"
 
     files
     {
-        "Source/**.cpp", "Source/**.hpp", "Source/**.h", "Source/**.ixx",
+        "Application.exe.manifest", "Source/**.cpp", "Source/**.hpp", "Source/**.h", "Source/**.ixx",
     }
 
     includedirs

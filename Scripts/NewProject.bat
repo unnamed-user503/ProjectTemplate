@@ -19,7 +19,7 @@ chcp 65001
     set /p PROJECT_NAME="PROJECT NAME: "
 
     if not exist "Projects\%PROJECT_NAME%" (
-        robocopy "Templates\Projects\C++20" "Projects\%PROJECT_NAME%" /MIR /DCOPY:DAT /XF .gitkeep /XD .git
+        robocopy "Templates\Projects\C++17" "Projects\%PROJECT_NAME%" /MIR /DCOPY:DAT /XF .gitkeep /XD .git
     )
 
     if exist "Projects\%PROJECT_NAME%\Build.lua" (

@@ -10,7 +10,7 @@ project "New Project"
 
     vspropertysettings
     {
-        -- VcpkgTriplet = "x64-windows-static-md",
+        -- VcpkgTriplet = "x64-windows-static",
         -- VcpkgEnabled = "true",
         -- PublicIncludeDirectories = "Source",
         -- PublicModuleDirectories  = "Source",
