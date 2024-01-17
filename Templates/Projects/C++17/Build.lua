@@ -39,7 +39,7 @@ project "New Project"
 
     files
     {
-        "Application.exe.manifest", "Source/**.cpp", "Source/**.hpp", "Source/**.h", "Source/**.ixx",
+        "Application.exe.manifest", "Source/**.cpp", "Source/**.hpp", "Source/**.h",
     }
 
     includedirs

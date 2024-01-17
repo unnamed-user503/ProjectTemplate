@@ -39,7 +39,7 @@ project "CoreLibrary"
 
     files
     {
-        "Source/**.cpp", "Source/**.hpp", "Source/**.h", "Source/**.ixx",
+        "Source/**.cpp", "Source/**.hpp", "Source/**.h",
     }
 
     includedirs
