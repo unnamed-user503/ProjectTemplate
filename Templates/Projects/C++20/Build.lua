@@ -3,7 +3,7 @@ project "New Project"
     language      "C++"
     cppdialect    "C++20"
     staticruntime "off"
-    characterset  "Unicode"
+    characterset  "MBCS"
 
     targetdir ("%{wks.location}/Binaries/" .. OutputDir .. "/%{prj.name}")
     objdir    ("%{wks.location}/Binaries-Intermediates/" .. OutputDir .. "/%{prj.name}")

@@ -3,7 +3,7 @@ project "CoreLibrary"
     language      "C++"
     cppdialect    "C++17"
     staticruntime "off"
-    characterset  "Unicode"
+    characterset  "MBCS"
 
     pchheader "Pch.hpp"
     pchsource "Source/Pch.cpp"

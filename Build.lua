@@ -21,7 +21,7 @@ workspace "Workspace"
 
         buildoptions
         {
-            "/EHsc", "/Zc:preprocessor", "/Zc:__cplusplus",
+            "/EHsc", "/Zc:preprocessor", "/Zc:__cplusplus", "/utf-8",
         }
 
         defines
