@@ -14,6 +14,7 @@ workspace "Workspace"
 
     defines
     {
+        "NOMINMAX", "WIN32_LEAN_AND_MEAN", "STRICT", "STRICT_TYPED_ITEMIDS",
     }
 
     filter "system:windows"
