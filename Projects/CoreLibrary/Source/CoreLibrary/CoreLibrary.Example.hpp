@@ -5,21 +5,34 @@ namespace CoreLibrary
 {
 }
 
+// Dependencies Include
+
 // Declarations
 namespace CoreLibrary
 {
     class Example final
     {
-    public:
+    public: // special member functions
 
-        Example();
-        Example(Example const&);
-        Example(Example&&);
-        Example& operator = (Example const&);
-        Example& operator = (Example&&);
-        ~Example();
+        // ctor
+        Example() = default;
+
+        // copy
+        Example(Example const&) = delete;
+        Example& operator = (Example const&) = delete;
+
+        // move
+        Example(Example&&) = default;
+        Example& operator = (Example&&) = default;
+
+        // dtor
+        ~Example() = default;
+
+    public: // member functions
 
         void Greeting(std::string_view message);
+
+    private: // member variables
 
     };
 }
