@@ -20,23 +20,6 @@ project "Application"
         -- AllProjectBMIsArePublic  = "true",
     }
 
-    vsadditionalprops
-    {
-    }
-
-    vsadditionaltargets
-    {
-    }
-
-    nuget
-    {
-        -- "Microsoft.Windows.ImplementationLibrary:1.0.231216.1",
-        -- "Microsoft.Windows.SDK.BuildTools:10.0.22621.2428",
-        -- "Microsoft.Windows.CppWinRT:2.0.230706.1",
-        -- "Microsoft.WindowsAppSDK:1.4.231115000",
-        -- "Microsoft.Graphics.Win2D:1.1.1",
-    }
-
     files
     {
         "Application.exe.manifest", "Source/**.cpp", "Source/**.hpp", "Source/**.h",
@@ -50,12 +33,4 @@ project "Application"
     links
     {
         "CoreLibrary",
-    }
-
-    prebuildcommands
-    {
-    }
-
-    postbuildcommands
-    {
     }
